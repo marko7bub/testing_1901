@@ -36,6 +36,7 @@ public class SmartArrayApp {
 
         // Input: [-1, 2, 0, 1, -5, 3]
         SmartArray sa = new BaseArray(integers);
+        double newDouble = 200;
 
         sa = new FilterDecorator(sa, pr); // Result: [2, 1, 3];
         sa = new SortDecorator(sa, cmp); // Result: [1, 2, 3]
